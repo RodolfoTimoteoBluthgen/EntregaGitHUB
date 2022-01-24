@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.containerNovedades {  display: grid;
+    grid-template-columns: 1fr 1fr 0.9fr 1.1fr 1fr 1fr;
+    grid-template-rows: 0.1fr 2.1fr 0.7fr 0.7fr 0.7fr 1fr 0.1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+  }
+  
+  .fondoMain { grid-area: 2 / 1 / 3 / 7; }
+  
+  .botonFondoMain { grid-area: 2 / 5 / 3 / 7; }
+  
+  .redes { grid-area: 6 / 1 / 7 / 7; }
+  
+  .fotoPie { grid-area: 5 / 1 / 6 / 7; }
+  
+  .contenidoMain { grid-area: 3 / 1 / 5 / 7; }
+  
